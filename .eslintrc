@@ -13,6 +13,7 @@
     "indent": "off",
     "require-jsdoc": "off",
     "operator-linebreak": "off",
+    "no-debugger": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
