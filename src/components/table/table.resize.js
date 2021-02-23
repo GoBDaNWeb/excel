@@ -1,6 +1,7 @@
 import {$} from 'core/Dom';
 
-export function mouseListeners($root, event) {
+export function resizeHandler($root, event) {
+    console.log(event)
     const $resizer = $(event.target)
     const $parent = $resizer.closest('[data-type="resizable"]')
     const coords = $parent.getCoords()
