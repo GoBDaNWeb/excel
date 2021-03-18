@@ -49,7 +49,7 @@ module.exports = {
     },
     devtool: isDev ? 'source-map' : false,
     devServer: {
-        port: 1488,
+        port: 2002,
         hot: isDev,
         open: true
     },

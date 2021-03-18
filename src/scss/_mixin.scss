@@ -6,11 +6,12 @@
   position: relative;
   display: inline-block;
   color: rgba(0, 0, 0, .7);
+  user-select: none;
 
   & > span {
     font-size: 24px;
   }
-  &:active, & .active {
+  &:active, &.active {
     color: $color;
   }
   &:hover {
